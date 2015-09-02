@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Eloquent\\LaArray\\": "src/LaArray/"
+      "Eloquent\\LaraArray\\": "src/LaraArray/"
     }
   }
 }

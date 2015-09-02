@@ -1,9 +1,9 @@
 <?php
 
-namespace Eloquent\LaArray;
+namespace Eloquent\LaraArray;
 
 
-trait LaArray
+trait LaraArray
 {
 
     /**
