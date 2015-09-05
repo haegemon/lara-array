@@ -72,7 +72,7 @@ trait LaraArray
             $value = $this->fromDateTime($value);
         }
 
-        if ($this->isArrayastable($key) && ! is_null($value)) {
+        if ($this->isArrayCastable($key) && ! is_null($value)) {
             $value = self::arrayStringify($value);
         }
 
@@ -106,7 +106,7 @@ trait LaraArray
      * @param  string  $key
      * @return bool
      */
-    protected function isArrayastable($key)
+    protected function isArrayCastable($key)
     {
         if ($this->hasCast($key)) {
             return in_array(
