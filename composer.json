@@ -2,7 +2,7 @@
   "name": "haegemon/lara-array",
   "description": "Lara-array provide postgresql array datatype support at Eloquent ORM. ",
   "minimum-stability": "stable",
-  "license": "proprietary",
+  "license": "Apache",
   "authors": [
     {
       "name": "haegemon",
